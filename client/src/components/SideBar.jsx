@@ -74,7 +74,7 @@ const SideBar = ({ isMenuOpen, setIsMenuOpen }) => {
 
       {/* Search conversation */}
       <div className="flex items-center gap-2 p-3 mt-4 border border-gray-400 dark:border-white/20 rounded-md">
-        <img src={assets.search_icon} className="w-4 not-dark:invert" alt="" />
+        <img src={theme === "dark" ? assets.search_icon_dark : assets.search_icon } className="w-4 not-dark:invert" alt="" />
         <input
           onChange={(e) => setSearch(e.target.value)}
           value={search}
@@ -136,7 +136,7 @@ const SideBar = ({ isMenuOpen, setIsMenuOpen }) => {
         className="flex items-center gap-2 p-3 mt-4 border border-gray-300 dark:border-white/15 rounded-md cursor-pointer hover:scale-103 transition-all"
       >
         <img
-          src={assets.gallery_icon}
+          src={ theme === "dark" ? assets.gallery_icon : assets.gallery_icon_dark}
           className="w-4.5 not-dark:invert"
           alt=""
         />

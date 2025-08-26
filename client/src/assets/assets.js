@@ -16,6 +16,8 @@ import gallery_icon from "./gallery_icon.svg";
 // new
 import sino_logo_ai from "./sino_logo_ai.svg";
 import sino_logo_ai_dark from "./sino_logo_ai_dark.svg";
+import gallery_icon_dark from "./gallery_icon_dark.svg";
+import search_icon_dark from "./search_icon_dark.svg";
 
 import ai_image1 from "./ai_image1.jpg";
 import ai_image2 from "./ai_image2.jpg";
@@ -48,7 +50,9 @@ export const assets = {
     gallery_icon,
     // new
     sino_logo_ai,
-    sino_logo_ai_dark
+    sino_logo_ai_dark,
+    gallery_icon_dark,
+    search_icon_dark
 };
 
 export const dummyUserData = {
